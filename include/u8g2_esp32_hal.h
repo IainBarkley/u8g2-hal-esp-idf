@@ -25,7 +25,7 @@
 
 #define I2C_MASTER_TX_BUF_DISABLE 0  //  I2C master do not need buffer
 #define I2C_MASTER_RX_BUF_DISABLE 0  //  I2C master do not need buffer
-#define I2C_MASTER_FREQ_HZ 50000     //  I2C master clock frequency
+#define I2C_MASTER_FREQ_HZ 100000     //  I2C master clock frequency
 #define ACK_CHECK_EN 0x1             //  I2C master will check ack from slave
 #define ACK_CHECK_DIS 0x0  //  I2C master will not check ack from slave
 
@@ -90,3 +90,4 @@ uint8_t u8g2_esp32_gpio_and_delay_cb(u8x8_t* u8x8,
 #endif /* U8G2_ESP32_HAL_H_ */
 
 #endif
+
