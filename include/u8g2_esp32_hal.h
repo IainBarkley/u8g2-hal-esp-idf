@@ -58,3 +58,4 @@ uint8_t u8g2_esp32_gpio_and_delay_cb(u8x8_t* u8x8,
 #endif /* U8G2_ESP32_HAL_H_ */
 
 #endif
+
